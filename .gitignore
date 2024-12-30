@@ -1,0 +1,35 @@
+# Go specific
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/vendor/
+/bin/
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Binary files
+event-booking-api
+
+# Debug files
+debug/
+
+# Log files
+*.log
+
+# Test coverage
+coverage.txt
+coverage.html
